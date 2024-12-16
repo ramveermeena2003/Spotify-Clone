@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid red;
+    /* margin: 3px;
+    border-radius: 6px; */
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray
+{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin-top: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+/* Styling the scrollbars */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #000; /* Black background for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000; /* Black color for the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #333; /* Border around the thumb (optional) */
+}
+
+/* Firefox Scrollbar */
+* {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: #000 #333; /* Black thumb, dark grey track */
+}
+
+

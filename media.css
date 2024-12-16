@@ -1,0 +1,101 @@
+@media (max-width: 1405px) {
+    .left {
+        position: absolute;
+        left: -200%;
+        transition: all 0.5s ease-in-out;
+        z-index: 1;
+        width: 351px;
+    }
+
+    .right {
+        width: 100vw;
+        min-height: 95vh;
+        margin: 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .header {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .playbar {
+        width: 100vw;
+    }
+
+    .header .hamburger {
+        display: block;
+    }
+}
+
+/* @media (max-width: 650px) {
+
+    .songbuttons #previous,
+    #current,
+    #next {
+        width: 20px;
+        height: 20px;
+    }
+    .volume{
+        width: 20px;
+        height: 20px;
+    }
+
+    .songinfo {
+        font-size: 10px;
+        overflow: hidden;
+    }
+
+    .songtime {
+        font-size: 10px;
+        width: 90px;
+    }
+
+    .seekbar {
+        width: 95vw;
+    }
+
+    .spotifyPlaylists h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+@media (max-width: 700px) {
+    .aboveinfo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .songinfo{
+        overflow: hidden;
+    }
+    .playbar{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+}
+@media (max-width: 330px) {
+    .signup {
+        font-size: 14px;
+    }
+
+    .signup:hover {
+        font-size: 15px;
+    }
+
+    .login {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .login:hover {
+        font-size: 15px;
+    }
+}

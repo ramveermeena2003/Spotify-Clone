@@ -1,0 +1,27 @@
+.signup{
+    background-color: transparent;
+    color: rgb(203, 191, 191);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.signup:hover{
+    color: white;
+    font-size: 18px;
+}
+.login{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.login:hover{
+    font-size: 18px;
+}
